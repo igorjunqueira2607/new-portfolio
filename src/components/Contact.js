@@ -8,7 +8,7 @@ function Contact() {
   return (
     <section className="contact">
       <div className="title-box">
-        <h3>Contato</h3>
+        <h3>Contat:</h3>
         <h4>Conecte-se comigo nas redes sociais!</h4>
       </div>
       <div className="social-media-box">
