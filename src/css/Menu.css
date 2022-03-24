@@ -1,0 +1,45 @@
+nav {
+  background-color: #036b52;
+  box-shadow: 0 3px 5px rgb(122, 122, 122);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  height: 60px;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+}
+
+.logo-box {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.logo-box h1 {
+  padding-left: 30px;
+  font-family: 'Codystar', cursive;
+  font-size: 1.7rem;
+}
+
+.menu-list-box {
+  width: 50%;
+}
+
+.menu-list-box ul {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
